@@ -3,3 +3,28 @@ html{
 }
 
 $font-size-base: 1.6rem;
+
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+xxl: 1140px //1320px
+);
+$grid-gutter-width:   2.4rem;
+
+$pink:    #ECD9D9;
+$light:    #F5F5F5;
+
+$theme-colors: (
+"pink":  $pink,
+"light":  $light
+);
+
+$h1-font-size:  6rem;
+$h2-font-size:  3.6rem;
+$h3-font-size:  3rem;
+
+$body-color: #000;
+
+$footer-color: #586C88;
